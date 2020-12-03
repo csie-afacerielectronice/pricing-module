@@ -7,27 +7,27 @@ class PricingPage extends Component {
     super(props)
     
     this.state = {
-      plans: [
-    {
-      price: 0,
-      offer: "No credit card needed",
-      call_to_action: "Sign up free",
-      value_proposition: "Gold features",
-      features: [
-        {name: "One image per product"},
-        {name: "Free themes"}
-      ]
-    }, {
-      price: 9.99,
-      offer: "No credit card needed",
-      call_to_action: "Sign up free",
-      value_proposition: "Gold features",
-      features: [
-        {name: "One image per product"},
-        {name: "Free themes"}
-      ]
-    }
-  ]
+        plans: [
+      {
+        price: 0,
+        offer: "No credit card needed",
+        call_to_action: "Sign up free",
+        value_proposition: "Gold features",
+        features: [
+          {name: "One image per product"},
+          {name: "Free themes"}
+        ]
+      }, {
+        price: 9.99,
+        offer: "No credit card needed",
+        call_to_action: "Sign up free",
+        value_proposition: "Gold features",
+        features: [
+          {name: "One image per product"},
+          {name: "Free themes"}
+        ]
+      }
+    ]
     }
   }
   
